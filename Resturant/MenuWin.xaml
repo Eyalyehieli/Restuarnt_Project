@@ -1,0 +1,15 @@
+﻿<Window x:Class="Resturant.MenuWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Resturant"
+        mc:Ignorable="d"
+        Title="Menu" Height="450" Width="800">
+    <Grid>
+        <Label Content="Select Category:" HorizontalAlignment="Left" Margin="107,40,0,0" VerticalAlignment="Top" Width="114"/>
+        <ComboBox x:Name="categories_combo_box" HorizontalAlignment="Left" Margin="257,44,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="categories_combo_box_SelectionChanged"/>
+        <DataGrid x:Name="categoriesDataGrid" HorizontalAlignment="Left" Height="249" Margin="0,172,0,-0.333" VerticalAlignment="Top" Width="793" SelectionChanged="categoriesDataGrid_SelectionChanged"/>
+        <Button Content="End Order" HorizontalAlignment="Left" Margin="628,81,0,0" VerticalAlignment="Top" Width="91" Height="37" Click="Button_Click"/>
+    </Grid>
+</Window>

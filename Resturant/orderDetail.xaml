@@ -1,0 +1,15 @@
+﻿<Window x:Class="Resturant.orderDetail"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Resturant"
+        mc:Ignorable="d"
+        Title="orderDetail" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="orderDetail_data_grid" HorizontalAlignment="Left" Height="302" Margin="0,119,0,-0.333" VerticalAlignment="Top" Width="793"/>
+        <Label Content="Order number: " HorizontalAlignment="Left" Margin="96,45,0,0" VerticalAlignment="Top" Width="103"/>
+        <Label x:Name="order_id_lbl" Content="" HorizontalAlignment="Left" Margin="248,45,0,0" VerticalAlignment="Top" Height="26" Width="63"/>
+
+    </Grid>
+</Window>
